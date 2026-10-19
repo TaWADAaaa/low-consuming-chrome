@@ -1,0 +1,17 @@
+﻿{
+    "Version":  "0.3.0",
+    "SelectedProduct":  "Chrome",
+    "BuiltUtc":  "2026-10-19T02:56:06.8108416Z",
+    "Compiler":  "4.8.9221.0 built by: NET481REL1LAST_25H2",
+    "Executables":  [
+                        {
+                            "Name":  "ChromeTawop.exe",
+                            "Bytes":  72704,
+                            "SHA256":  "99D96EF047951699DD546F936BCF18A13DF93A970D46699D69AE2FCEF79D30B2",
+                            "Kind":  "local patch tool; not a replacement client"
+                        }
+                    ],
+    "ClientEngineBuildsIncluded":  false,
+    "MemoryTargetVerified":  false,
+    "AutomatedTestsPassed":  true
+}

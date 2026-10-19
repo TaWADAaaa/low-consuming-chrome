@@ -1,0 +1,10 @@
+{
+    "Name":  "Low Consuming Chrome",
+    "Repository":  "https://github.com/TaWADAaaa/low-consuming-chrome",
+    "DescriptionES":  "Parche abierto de fuentes Chromium para Windows: marca ChromeTawop y ahorro de memoria predeterminado. Navegador nativo y presupuesto aÃºn sin verificar.",
+    "DescriptionEN":  "Open Chromium source patch for Windows: ChromeTawop branding and memory-saving defaults. Native browser build and resource budget remain unverified.",
+    "Downloads":  "https://github.com/TaWADAaaa/low-consuming-chrome/releases",
+    "Executable":  "ChromeTawop.exe",
+    "Version":  "0.3.0-experimental",
+    "MemoryTargetVerified":  false
+}
