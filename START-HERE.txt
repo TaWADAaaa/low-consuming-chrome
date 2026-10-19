@@ -1,0 +1,20 @@
+LOW CONSUMING Chrome - START HERE
+
+1. Right-click the downloaded ZIP, choose Extract All, and open the new folder.
+2. Double-click ChromeTawop.exe.
+3. Click Prepare Chromium sources and select an existing Chromium src folder if asked.
+
+This is a developer source tool. It does not optimize installed Google Chrome or include a working browser. You need an existing complete Chromium source checkout. The tool checks supported files, saves originals and applies the source patch. Building a browser is a separate C++ development task explained in README_CHROMIUM.md.
+
+Undo changes restores verified source originals. Keep the .tawop backup folder.
+
+You do not need CMD, PowerShell or an account in this tool to open the release EXE.
+Developer files are included for review and rebuilding.
+
+These executables are unsigned. Windows or antivirus software may warn.
+This package does not disable protection. Source and SHA256 values support
+review and file-identity checks, not a safety certification.
+
+Experimental: memory savings and the combined 2 GB target remain unverified.
+Help: docs/USER_GUIDE.en.md
+Source and releases: https://github.com/TaWADAaaa/low-consuming-chrome
