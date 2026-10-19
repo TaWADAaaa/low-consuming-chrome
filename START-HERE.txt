@@ -2,11 +2,19 @@ LOW CONSUMING Chrome - START HERE
 
 1. Right-click the downloaded ZIP, choose Extract All, and open the new folder.
 2. Double-click ChromeTawop.exe.
-3. Click Prepare Chromium sources and select an existing Chromium src folder if asked.
+3. Save your work and click Optimize Chrome. Google Chrome 126 or later is required.
 
-This is a developer source tool. It does not optimize installed Google Chrome or include a working browser. You need an existing complete Chromium source checkout. The tool checks supported files, saves originals and applies the source patch. Building a browser is a separate C++ development task explained in README_CHROMIUM.md.
+The main button configures your installed Google Chrome for this Windows account. It enables native Maximum Memory Saver and disables background mode and predictive page loading. Existing managed performance policies are preserved.
 
-Undo changes restores verified source originals. Keep the .tawop backup folder.
+Chrome is not closed. Open chrome://policy, click Reload policies, or restart Chrome normally when convenient. Inactive tabs may reload more often and use more network traffic. Memory savings are not guaranteed.
+
+Stop cancels this tool safely while busy. Undo changes restores its own verified policy changes. The backup is stored under %LOCALAPPDATA%\LowConsuming\Chrome, not inside the Chrome installation.
+
+Chrome may display Managed by your organization because these local settings are policies. Use Undo changes to remove settings created by this tool. No browser profiles, passwords, sessions or security settings are read or changed.
+
+Need to stop? The main button changes to Stop while the tool is busy.
+Click it once and wait. Closing the window also requests a safe stop.
+If recovery is needed, let it finish before closing the tool.
 
 You do not need CMD, PowerShell or an account in this tool to open the release EXE.
 Developer files are included for review and rebuilding.
